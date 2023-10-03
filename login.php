@@ -12,7 +12,7 @@ $user = $_POST["user"];
 $password = $_POST["password"];
 
 
-$sql = "SELECT * FROM users WHERE user = '{$user}' AND password = '{$password}'";
+$sql = "SELECT * FROM users WHERE user = '{$user}' AND password = '" . md5($password) . "'";
 
 $res = $conn->query($sql) or die($conn->error);
 
