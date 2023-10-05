@@ -27,6 +27,6 @@ if ($qtd > 0) {
     $_SESSION["type"] = $row->user_type;
     header("location: dashboard.php");
 } else {
-    print "<script>alert('Usuário e/ou senha incorreto(s)');</script>";
-    header("location: index.php");
+    echo "<script>alert('Usuário e/ou senha incorreto(s)');</script>";
+    echo "<script>window.location.href = 'index.php';</script>";
 }
