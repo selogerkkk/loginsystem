@@ -3,6 +3,8 @@
 ## Visão Geral
 
 O Sistema de Login é uma aplicação web que permite aos usuários fazer login, registrar-se, acessar um painel de controle após a autenticação e fazer logout. O projeto utiliza PHP e MySQL para implementar a funcionalidade de autenticação de usuário.
+![image](https://github.com/selogerkkk/loginsystem/assets/101962124/4da95a73-6dfd-4ea1-9c11-fc378dfb843f)
+
 
 ## Estrutura do Projeto
 
