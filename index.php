@@ -29,22 +29,23 @@
                     <div class="card">
                         <div class="card-body">
                             <h3>Acesso restrito</h3>
-                            <form action="login.php" method="POST">
+                            <form action="dblogin.php" method="POST">
                                 <div>
                                     <div class="mb-3">
                                         <label for="user">Usuário</label>
-                                        <input type="text" name="user" class="form-control">
+                                        <input type="text" name="user" id="user" class="form-control" required>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="mb-3">
                                         <label for="password">Senha</label>
-                                        <input type="password" name="password" class="form-control">
+                                        <input type="password" name="password" id="password" class="form-control" required>
                                     </div>
                                 </div>
                                 <div>
                                     <div class="mb-3">
                                         <button class="btn btn-primary">Entrar</button>
+                                        <a href="signup.php" class="position-absolute end-0 p-2">Registrar</a>
                                     </div>
                                 </div>
                             </form>
